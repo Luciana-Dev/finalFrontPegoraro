@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.favButton{
+  background-color: rgba(136, 136, 136, 0.116);
+  padding: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+h1{
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  padding: 4rem;
+  flex-wrap: wrap;
+  background-color: #838382;
+  text-decoration: none;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+
+}
+a:hover{
+  color: rgb(136, 136, 136);
+} 
+.contacto{
+margin: 8%;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  bottom: 0;
+  height: 40px;
+  margin-top: 2rem;
+}
+
+footer > img{
+  width: 200px;
+  margin: 0;
+}
+footer > p{
+  margin: 0;
+  padding-top: 0.7rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.card{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  border: 0.5px solid rgb(136, 136, 136);
+}
+
+.card:hover{
+  border: 0.5px solid rgb(206, 217, 142);
+}
+
+.card-grid{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 100vw;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+  border: 1px solid #ccc;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.dark{
+  background-color: #12121296;
+  color: white;
+}
+.dark > a {
+  color: white;
+}
+.img-card{
+  width: 100%;
+  border-radius: 100px 100px 100px 100px;
+}
+.nombre{
+  
+  color: #150913;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 20px;
+}
+button:hover {
+  background-color: #086dc5;
+}
+.card-grid{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 100vw;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+table {
+border-collapse: collapse;
+    border-spacing: 0;
+    width: 100vw;
+    display: table;
+    border: 1px solid #ccc;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+[data-base-theme="dark"] .App {
+  background-color: #000000;
+  color: antiquewhite;
+}
+
+[data-base-theme="dark"] .card {
+  background-color:  #444443;
+}
+[data-base-theme="dark"] .li{
+  background-color: #000000;
+  color: antiquewhite;
+}
+[data-base-theme="dark"] .inicio{
+  background-color: #000000;
+  color: antiquewhite;
+}
+
+[data-base-theme="dark"] footer {
+  background-color: #444443;
+}
+[data-base-theme="dark"] nav {
+  background-color: #313130;
+  text-decoration: none;
+}
+
+[data-base-theme="dark"] .nombre{
+  color: #f3f0f2;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 20px;
+}
+.Link{
+  color: #000000;
+  text-decoration: none;
+
+}
+[data-base-theme="dark"] .Link{
+  color: #ffffff;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  flex-wrap: wrap;
+}
+
+.error-container{
+  
+margin: 8%;
+}
